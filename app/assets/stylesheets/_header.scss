@@ -1,0 +1,28 @@
+header {
+  box-shadow: 1px 0 5px 1px rgba(0, 0, 0, 0.48);
+  display: flex;
+  height: 60px;
+  padding: 0 30px;
+  margin-bottom: 30px;
+
+  .nav,
+  .cart {
+    align-items: center;
+    display: flex;
+    flex: 1;
+
+    a {
+      color: gray;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+  }
+
+  .nav {
+
+  }
+
+  .cart {
+    justify-content: flex-end;
+  }
+}

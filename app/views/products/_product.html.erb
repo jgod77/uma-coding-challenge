@@ -1,0 +1,11 @@
+<%= link_to product, class: 'product-tile--link' do %>
+  <div class="product-tile">
+    <div class="product-tile__name">
+      <h4><%= product.name %></h4>
+    </div>
+    <div class="product-tile__description">
+      <%= truncate(product.description, length: 150) %>
+    </div>
+      <%= link_to 'Add to Cart', '##', class: 'btn' %>
+  </div>
+<% end %>
